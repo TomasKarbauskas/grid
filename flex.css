@@ -1,0 +1,23 @@
+main, .three{
+    display: flex;
+    margin: 0 auto;
+}
+.one, .div2, .div3, .div4{
+    background-color: rgb(253, 73, 55);
+    border: solid 0.5rem white;
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+}
+.one{
+    width: 15rem;
+    min-height: 10rem;
+}
+.div2{
+    width: 15rem;
+    min-height: 4.5rem;
+}
+.div3, .div4{
+    min-height: 5rem;
+    width: 7rem;
+}

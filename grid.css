@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    "main main article article"
+    "main main article article"
+    "main main nav footer"
+    "main main nav footer";
+}
+header, article, nav, footer{
+    background-color: rgb( 158, 206, 225);
+    border: solid 0.5rem white;
+    padding-top: 4rem;
+}
+header{grid-area: main;
+       height: 22rem;
+}
+nav{grid-area: nav;}
+footer{grid-area: footer;}
+
+article{
+    grid-area: article;
+    min-height: 8rem;
+}
+nav, footer{
+    min-height: 8rem;
+}
